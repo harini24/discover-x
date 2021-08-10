@@ -38,7 +38,7 @@ export default function Input({ onSend }) {
                         </g>
                     </svg>
                 </button>
-                <Dictaphone setText={setText} />
+                {/* <Dictaphone setText={setText} /> */}
             </div>
         </div>
     );

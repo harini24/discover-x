@@ -13,8 +13,8 @@
   text-align: center;
   display: flex;
   flex-flow: column;
-  width: 40%;
-  height: 60vh;
+  width: 60%;
+  height: 98vh;
   overflow: hidden;
 }
 
@@ -26,6 +26,9 @@
   font-size: 16px;
   font-weight: bold;
   background-color: #002f50;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .messages {
@@ -113,4 +116,37 @@
   position: absolute;
   right: 38PX;
   top: 0;
+}
+
+.rootCnt{
+  text-align: left;
+}
+
+.detailsCont{
+  margin-top: 15px;
+}
+
+.detailsTitle{
+  font-weight: bold;
+}
+
+.detailCont{
+margin-top: 15px;
+display: flex;
+}
+
+.promoImg{
+height: 108px;
+}
+
+.promoDeatils{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.detailBtn{
+  margin-top: 20px;
+  width: 99%;
+  border-radius: 15px;
 }
